@@ -1,12 +1,10 @@
 import React from "react";
-import HeroCard from "@/components/dashboard/hero-card";
+import HeroCard from "@/components/dashboard/heroes/hero-card";
 import { getClient } from "@/services/apollo-client/ApolloClient";
-import { GET_HEROES } from "@/components/dashboard/top-heroes";
-
-export const dynamic = 'force-dynamic';
+import { GET_HEROES } from "@/components/dashboard/heroes/top-heroes";
 
 export default async function HeroesList() {
-  // await new Promise(resolve => setTimeout(resolve, 4000)); // here we simulate a very slow request
+  await new Promise(resolve => setTimeout(resolve, 4000)); // here we simulate a very slow request
   const { data } = await getClient()
     .query({
       query: GET_HEROES,

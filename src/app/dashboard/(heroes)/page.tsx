@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
-import HeroesList from "@/components/dashboard/heroes-list";
-import { HeroesListSkeleton, TopHeroesSkeleton } from "@/components/dashboard/hero-skeletons";
-import TopHeroes from "@/components/dashboard/top-heroes";
+import HeroesList from "@/components/dashboard/heroes/heroes-list";
+import { HeroesListSkeleton, TopHeroesSkeleton } from "@/components/dashboard/heroes/hero-skeletons";
+import TopHeroes from "@/components/dashboard/heroes/top-heroes";
 
 export const dynamic = 'force-dynamic';
 
