@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="003d4fca-50c2-4e7d-aaf4-bb69ca6a4f92" name="Changes" comment="feat: adds dashboard page with sidebar and heroes content">
-      <change afterPath="$PROJECT_DIR$/src/providers/ApolloProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/apollo-client/ApolloClient.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/episodes/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/dashboard/(overview)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/dashboard/(heroes)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/dashboard/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/dashboard/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/hero-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/hero-card.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dashboard/heroes-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/heroes-list.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/sidebar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dashboard/top-heroes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/top-heroes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +54,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/alex1/OneDrive/Υπολογιστής/app-router-apollo-demo/src/app/dashboard/episodes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,6 +65,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alex1\OneDrive\Υπολογιστής\app-router-apollo-demo\src\app\dashboard\episodes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\alex1\OneDrive\Υπολογιστής\app-router-apollo-demo\src\providers" />
       <recent name="C:\Users\alex1\OneDrive\Υπολογιστής\app-router-apollo-demo\src\services\apollo-client" />
@@ -97,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739524024103</updated>
-      <workItem from="1739524026466" duration="26555000" />
+      <workItem from="1739524026466" duration="27621000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adds dashboard page with sidebar and heroes content">
       <option name="closed" value="true" />

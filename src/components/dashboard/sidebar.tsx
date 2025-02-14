@@ -4,8 +4,10 @@ import NavLinks from "@/components/dashboard/navlinks";
 import { gql, TypedDocumentNode } from "@apollo/client";
 import { getClient } from "@/services/apollo-client/ApolloClient";
 
+export const dynamic = 'force-dynamic';
+
 export default async function SideBar() {
-  await new Promise(resolve => setTimeout(resolve, 4000)); // here we simulate a very slow request
+  // await new Promise(resolve => setTimeout(resolve, 4000)); // here we simulate a very slow request
 
   const { data } = await getClient()
     .query({

@@ -3,8 +3,10 @@ import HeroCard from "@/components/dashboard/hero-card";
 import { getClient } from "@/services/apollo-client/ApolloClient";
 import { GET_HEROES } from "@/components/dashboard/top-heroes";
 
+export const dynamic = 'force-dynamic';
+
 export default async function HeroesList() {
-  await new Promise(resolve => setTimeout(resolve, 4000)); // here we simulate a very slow request
+  // await new Promise(resolve => setTimeout(resolve, 4000)); // here we simulate a very slow request
   const { data } = await getClient()
     .query({
       query: GET_HEROES,
