@@ -1,6 +1,13 @@
 This is a [Next.js](https://nextjs.org) and [Apollo Client](https://www.apollographql.com/docs/react) demo project
 bootstrapped with `create-next-app@latest` along with `apollo-client-nextjs`.
 
+## Tech Stack
+- Next.js 15.1.x
+- Apollo Client 3.13.x
+- React 19.0.x
+- TypeScript 5
+- shadcn/ui
+
 ## Getting Started
 
 First, install the necessary deps using `npm i` and then run the development server `npm run dev`.
@@ -9,6 +16,11 @@ In this project, we demonstrate how `NextJs` works with `Apollo Client` in parti
 Server Components and Client Components.
 
 We use the latest versions of `React`, `Next`, `Apollo client`, `apollo-client-nextjs` and the rest deps.
+
+## API Reference
+The project uses the Rick and Morty GraphQL API:
+- Base URL: https://rickandmortyapi.com/graphql
+- Documentation: https://rickandmortyapi.com/documentation
 
 ## Application Breakdown
 
@@ -44,3 +56,13 @@ We use the latest versions of `React`, `Next`, `Apollo client`, `apollo-client-n
       `graphQL server` and use the cache created from `TopLocations` request.
     - Opening the Network tab, one can see that only one request is made to `graphQL server` from client.
 
+## Remarks and Personal comments
+
+- Although in the `apollo-client-nextjs` package's `README.md` states that it's an experimental api, race conditions
+  seem to be the only catch during SSR of CCs. This can boil down to an architect problem inside the codebase rather
+  than incompatibility between nextjs and apollo.
+- When using `useQuery` hook either when preloading data or when fetching directly to client, we can pass the option
+  `ssr: false` which skips executing the query during SSR, so we dont have overlapping queries on client and on server.
+- The `apollo-client-nextjs` depends on the latest versions of React, Next, Apollo, so before starting migrate your
+  existing codebase, you need to make sure first that the rest of your 3rd party libraries can support the latest
+  version of React and Next.  

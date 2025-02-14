@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="003d4fca-50c2-4e7d-aaf4-bb69ca6a4f92" name="Changes" comment="feat: adds locations page that demonstrates data fetching on server, client and apollo client for state management" />
+    <list default="true" id="003d4fca-50c2-4e7d-aaf4-bb69ca6a4f92" name="Changes" comment="feat: adds forgotten deps">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/episodes/top-episodes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/episodes/top-episodes.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739524024103</updated>
-      <workItem from="1739524026466" duration="38204000" />
+      <workItem from="1739524026466" duration="39434000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adds dashboard page with sidebar and heroes content">
       <option name="closed" value="true" />
@@ -116,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739575680512</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: adds forgotten deps">
+      <option name="closed" value="true" />
+      <created>1739576047695</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739576047695</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +138,7 @@
     <MESSAGE value="feat: adds dashboard page with sidebar and heroes content" />
     <MESSAGE value="fix: adds force-dynamic directive since we want to render dynamic the pages and not statically" />
     <MESSAGE value="feat: adds locations page that demonstrates data fetching on server, client and apollo client for state management" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adds locations page that demonstrates data fetching on server, client and apollo client for state management" />
+    <MESSAGE value="feat: adds forgotten deps" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adds forgotten deps" />
   </component>
 </project>

@@ -8,6 +8,9 @@ import { GET_EPISODES } from "@/app/dashboard/episodes/queries";
 export default function TopEpisodes() {
   const { data } = useSuspenseQuery(GET_EPISODES, { variables: { pages: 1 } });
 
+  // Alternative to useSuspenseQuery, we can use useQuery hook
+  // const { data } = useQuery(GET_EPISODES, { variables: { pages: 1 }, ssr: false });
+
   return (
     <div className="pt-7">
       <h4 className="scroll-m-20 text-2xl gray-800 tracking-tight w-3/5 pt-2">
