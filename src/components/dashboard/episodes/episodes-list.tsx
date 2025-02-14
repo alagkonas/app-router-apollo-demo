@@ -8,6 +8,7 @@ export default function EpisodesList({ queryRef }: {
   queryRef: QueryRef<{
     episodes: {
       results: {
+        id: string;
         name: string;
         air_date: string;
         episode: string
@@ -22,9 +23,9 @@ export default function EpisodesList({ queryRef }: {
         Episodes List
       </h4>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        {data?.episodes?.results?.map((episode, index) => (
+        {data?.episodes?.results?.map((episode) => (
           <EpisodeCard
-            key={index}
+            key={episode?.id}
             name={episode?.name}
             episode={episode?.episode}
             air_date={episode.air_date}

@@ -15,9 +15,9 @@ export default function TopEpisodes() {
       </h4>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {data?.episodes?.results?.slice(0, 3)
-          .map((episode, index) => (
+          .map((episode) => (
             <EpisodeCard
-              key={index}
+              key={episode?.id}
               name={episode?.name}
               episode={episode?.episode}
               air_date={episode.air_date}

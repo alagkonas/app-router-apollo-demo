@@ -5,21 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="003d4fca-50c2-4e7d-aaf4-bb69ca6a4f92" name="Changes" comment="fix: adds force-dynamic directive since we want to render dynamic the pages and not statically">
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/episodes/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/episodes/queries.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dashboard/episodes/episodes-list.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dashboard/episodes/top-episodes.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dashboard/heroes/hero-card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dashboard/heroes/hero-skeletons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/locations/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/locations/queries.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/locations/location-card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/locations/location-skeletons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/locations/locations-list.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/locations/top-locations.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/locations/worst-locations.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/dashboard/(heroes)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/dashboard/(heroes)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/hero-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/episodes/episode-card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/hero-skeletons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/episodes/episode-skeletons.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/heroes-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/heroes/heroes-list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/dashboard/episodes/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/dashboard/episodes/queries.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/episodes/episode-skeletons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/episodes/episode-skeletons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/episodes/episodes-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/episodes/episodes-list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/episodes/top-episodes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/episodes/top-episodes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/heroes/heroes-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/heroes/heroes-list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/heroes/top-heroes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/heroes/top-heroes.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dashboard/navlinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/navlinks.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dashboard/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/top-heroes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/heroes/top-heroes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/alex1/OneDrive/Υπολογιστής/app-router-apollo-demo/src/components/dashboard/episodes",
+    "last_opened_file_path": "C:/Users/alex1/OneDrive/Υπολογιστής/app-router-apollo-demo/src/components/dashboard/locations",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,6 +79,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alex1\OneDrive\Υπολογιστής\app-router-apollo-demo\src\components\dashboard\locations" />
+      <recent name="C:\Users\alex1\OneDrive\Υπολογιστής\app-router-apollo-demo\src\components\dashboard" />
+      <recent name="C:\Users\alex1\OneDrive\Υπολογιστής\app-router-apollo-demo\src\app\dashboard" />
       <recent name="C:\Users\alex1\OneDrive\Υπολογιστής\app-router-apollo-demo\src\components\dashboard\episodes" />
       <recent name="C:\Users\alex1\OneDrive\Υπολογιστής\app-router-apollo-demo\src\app\dashboard\episodes" />
     </key>
@@ -103,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739524024103</updated>
-      <workItem from="1739524026466" duration="33190000" />
+      <workItem from="1739524026466" duration="37828000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adds dashboard page with sidebar and heroes content">
       <option name="closed" value="true" />

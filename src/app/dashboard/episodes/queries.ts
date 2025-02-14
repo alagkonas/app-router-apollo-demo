@@ -3,6 +3,7 @@ import { gql, TypedDocumentNode } from "@apollo/client";
 export const GET_EPISODES: TypedDocumentNode<{
   episodes: {
     results: {
+      id: string;
       name: string;
       air_date: string;
       episode: string
@@ -14,7 +15,7 @@ export const GET_EPISODES: TypedDocumentNode<{
     results {
       id
       name
-     air_date
+      air_date
       episode
       created
     }

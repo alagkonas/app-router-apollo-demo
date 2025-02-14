@@ -17,9 +17,9 @@ export default async function HeroesList() {
         Heroes List
       </h4>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        {data?.characters?.results?.map((hero, index) => (
+        {data?.characters?.results?.map((hero) => (
           <HeroCard
-            key={index}
+            key={hero?.id}
             imageUrl={hero?.image}
             name={hero?.name}
             species={hero?.species}

@@ -18,9 +18,9 @@ export default async function TopHeroes() {
       </h4>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {data?.characters?.results?.slice(0, 3)
-          .map((hero, index) => (
+          .map((hero) => (
             <HeroCard
-              key={index}
+              key={hero?.id}
               imageUrl={hero?.image}
               name={hero?.name}
               species={hero?.species}
