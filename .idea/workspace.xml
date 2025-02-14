@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="003d4fca-50c2-4e7d-aaf4-bb69ca6a4f92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/(overview)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/hero-card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/hero-skeletons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/heroes-list.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/navlinks.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/top-heroes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +26,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "alagkonas"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/alagkonas/app-router-apollo-demo.git",
+    "accountId": "9f84aee5-0c01-4242-8542-8c26ff854d15"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 3
 }]]></component>
   <component name="ProjectId" id="2t1eUI4c9nwlLcxcfdcEN4IWaPp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -40,9 +62,15 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\alex1\\OneDrive\\Υπολογιστής\\app-router-apollo-demo\\node_modules\\typescript\\lib"
+    "ts.external.directory.path": "C:\\Users\\alex1\\OneDrive\\Υπολογιστής\\app-router-apollo-demo\\node_modules\\typescript\\lib",
+    "ts.rename.search.for.dynamic.occurrences": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alex1\OneDrive\Υπολογιστής\app-router-apollo-demo\src\components" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -58,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739524024103</updated>
-      <workItem from="1739524026466" duration="1256000" />
+      <workItem from="1739524026466" duration="12513000" />
     </task>
     <servers />
   </component>
