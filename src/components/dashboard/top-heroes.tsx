@@ -1,12 +1,15 @@
 import HeroCard from "@/components/dashboard/hero-card";
 import React from "react";
+import { getClient } from "@/services/apollo-client/ApolloClient";
+import { gql, TypedDocumentNode } from "@apollo/client";
 
 export default async function TopHeroes() {
-  await new Promise(resolve => setTimeout(resolve, 2000));
-  const heroes =
-    [...Array(3)
-      .map((idx) => idx)
-    ];
+  await new Promise(resolve => setTimeout(resolve, 2000)); // here we simulate a slow request
+  const { data } = await getClient()
+    .query({
+      query: GET_HEROES,
+      variables: { page: 1 }
+    });
 
   return (
     <div className="pt-7">
@@ -14,15 +17,40 @@ export default async function TopHeroes() {
         Top Heroes
       </h4>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {heroes.map((card, index) => (
-          <HeroCard
-            key={index}
-            imageUrl={"/public/vercel.svg"}
-            title={"Hero Name"}
-            description={"Hero Description"}
-          />
-        ))}
+        {data?.characters?.results?.slice(0, 3)
+          .map((hero, index) => (
+            <HeroCard
+              key={index}
+              imageUrl={hero?.image}
+              name={hero?.name}
+              species={hero?.species}
+            />
+          ))}
       </div>
     </div>
   );
 }
+
+export const GET_HEROES: TypedDocumentNode<{
+  characters: {
+    results: {
+      id: string;
+      name: string;
+      status: string;
+      species: string;
+      image: string;
+    }[];
+  }
+}> = gql`
+ query getAllCharacters($page: Int) {
+  characters(page: $page,) {
+    results {
+      id
+      name
+      status
+      species
+      image
+    }
+  }
+}
+`;

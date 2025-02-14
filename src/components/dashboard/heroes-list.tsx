@@ -1,12 +1,15 @@
 import React from "react";
 import HeroCard from "@/components/dashboard/hero-card";
+import { getClient } from "@/services/apollo-client/ApolloClient";
+import { GET_HEROES } from "@/components/dashboard/top-heroes";
 
 export default async function HeroesList() {
-  await new Promise(resolve => setTimeout(resolve, 2000));
-  const heroes =
-    [...Array(20)
-      .map((idx) => idx)
-    ];
+  await new Promise(resolve => setTimeout(resolve, 4000)); // here we simulate a very slow request
+  const { data } = await getClient()
+    .query({
+      query: GET_HEROES,
+      variables: { page: 1 }
+    });
 
   return (
     <div className="pt-7">
@@ -14,12 +17,12 @@ export default async function HeroesList() {
         Heroes List
       </h4>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        {heroes.map((card, index) => (
+        {data?.characters?.results?.map((hero, index) => (
           <HeroCard
             key={index}
-            imageUrl={"/public/vercel.svg"}
-            title={"Hero Name"}
-            description={"Hero Description"}
+            imageUrl={hero?.image}
+            name={hero?.name}
+            species={hero?.species}
           />
         ))}
       </div>

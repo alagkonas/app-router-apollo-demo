@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) and [Apollo Client](https://www.apollographql.com/docs/react) demo project
+bootstrapped with `create-next-app@latest` along with `apollo-client-nextjs`.
 
 ## Getting Started
 
-First, run the development server:
+First, install the necessary deps using `npm i` and then run the development server `npm run dev`:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+In this project, we demonstrate how `NextJs` works with `Apollo Client` in particular during Server Side Rendering, with Server Components and Client Components.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+We use the latest versions of `React`, `Next`, `Apollo client`, `apollo-client-nextjs` and the rest deps.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Application Breakdown
+- Dashboard Page (layout)
+    - User data are fetched on the server without using `Suspense`. For the `Avatar`, we use the component provided by `shadcn/ui`, which is a `Client Component`. 
+- Dashboard Page (Heroes section)
+    - Heroes section demonstrates how we can fetch data in the server using apollo client. All components here are SC.
+    - We have wrapped our list components `TopHeroes` and `HeroesList` in a `Suspense`, so this way we can inform user that application is loading the requested data, by suspending these sections of the page. Using `Suspense` though allows us to render the rest of the page without blocking the UI, so this way our user will immediately see a partial hydrate version of our app and reduce the First Contentful Paint (FCP) time.
+    - For demonstration purposes only, we have simulated slow requests in the above components, so the content can be rendered in two different times, which decouples even further the different sections of the page, so one cannot block the other.
+    - Opening the Network tab, one can see that no requests made to `graphQL server` to fetch data, since these requests happened on the server.
