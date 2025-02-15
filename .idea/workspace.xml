@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="003d4fca-50c2-4e7d-aaf4-bb69ca6a4f92" name="Changes" comment="feat: adds forgotten deps">
+    <list default="true" id="003d4fca-50c2-4e7d-aaf4-bb69ca6a4f92" name="Changes" comment="feat: updates README and concludes demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/episodes/top-episodes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/episodes/top-episodes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,22 +21,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "alagkonas"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alagkonas&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/alagkonas/app-router-apollo-demo.git",
-    "accountId": "9f84aee5-0c01-4242-8542-8c26ff854d15"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alagkonas/app-router-apollo-demo.git&quot;,
+    &quot;accountId&quot;: &quot;9f84aee5-0c01-4242-8542-8c26ff854d15&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2t1eUI4c9nwlLcxcfdcEN4IWaPp" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,20 +48,20 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/alex1/OneDrive/Υπολογιστής/app-router-apollo-demo/src/components/dashboard/locations",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\alex1\\OneDrive\\Υπολογιστής\\app-router-apollo-demo\\node_modules\\typescript\\lib",
-    "ts.rename.search.for.dynamic.occurrences": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alex1/OneDrive/Υπολογιστής/app-router-apollo-demo/src/components/dashboard/locations&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\alex1\\OneDrive\\Υπολογιστής\\app-router-apollo-demo\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.rename.search.for.dynamic.occurrences&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\alex1\OneDrive\Υπολογιστής\app-router-apollo-demo\src\components\dashboard\locations" />
@@ -94,7 +93,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739524024103</updated>
-      <workItem from="1739524026466" duration="39434000" />
+      <workItem from="1739524026466" duration="39836000" />
+      <workItem from="1739612728091" duration="1496000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adds dashboard page with sidebar and heroes content">
       <option name="closed" value="true" />
@@ -128,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739576047695</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: updates README and concludes demo">
+      <option name="closed" value="true" />
+      <created>1739577354350</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739577354350</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +147,7 @@
     <MESSAGE value="fix: adds force-dynamic directive since we want to render dynamic the pages and not statically" />
     <MESSAGE value="feat: adds locations page that demonstrates data fetching on server, client and apollo client for state management" />
     <MESSAGE value="feat: adds forgotten deps" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adds forgotten deps" />
+    <MESSAGE value="feat: updates README and concludes demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: updates README and concludes demo" />
   </component>
 </project>
